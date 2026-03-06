@@ -1,0 +1,57 @@
+.thumbail-contener{
+width: 250px;
+margin-left: 10px;
+}
+
+p{
+    font-family: roboto;
+}
+
+
+.thumbail{
+width: 250px;    
+
+}
+.profile{
+
+display: inline-block;    
+vertical-align: top;
+margin-top: 8px;
+height: 100px;
+
+
+
+
+}
+.video-info{
+    margin-top: 8px;
+margin-left: 9px;
+display:inline-block; 
+
+width: 190px;
+
+
+
+}
+.dp{
+border-radius: 40px;
+width: 40px;
+padding-top: 0px;
+}
+.video-title{
+
+margin-top: 1px;
+padding: 0px;
+font-weight: bold;
+width: 100%;
+
+
+}
+
+.video-trend , .video-author{
+margin-top: 1px;
+font-size: 13px;
+line-height: 5px;
+color: rgb(96, 96, 96);
+
+}
