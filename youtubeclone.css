@@ -1,5 +1,8 @@
 .thumbail-contener{
-width: 250px;
+width: 290px;
+height: 295px;
+margin-left: 20px;
+margin-top: 10px;
 
 }
 
@@ -9,7 +12,8 @@ p{
 
 
 .thumbail{
-width: 250px;    
+width: 100%;   
+
 
 }
 .profile{
@@ -28,8 +32,8 @@ height: 100px;
 margin-left: 9px;
 display:inline-block; 
 
-width: 190px;
-
+width: 180px;
+height: 100px;
 
 
 }
@@ -43,7 +47,7 @@ padding-top: 0px;
 margin-top: 1px;
 padding: 0px;
 font-weight: bold;
-width: 100%;
+width: 240px;
 
 
 }
@@ -54,13 +58,78 @@ font-size: 13px;
 line-height: 5px;
 color: rgb(96, 96, 96);
 
+
 }
 
 .content{
 margin-top: 5px;
 display: grid;  
 grid-template-columns: 1fr 1fr 1fr 1fr ;
+column-gap: 10px;
+row-gap: 5px;
+height: 100px;
 
 }
 
+.navbaar{
 
+display: flex;
+height: 45px;
+
+}
+
+.left{
+width: 200px;
+  
+display: grid;
+grid-template-columns: 60px 1fr;
+
+
+}
+.middle{
+margin-left: 60px;
+
+flex: 1;
+display: grid;
+grid-template-columns: 1fr 60px;
+height: 100%;
+}
+.right{
+width: 250px;
+margin-right: 0px;
+background-color: black;    
+}
+
+.sidebaar{
+
+background-color: aqua;
+height: 1000px;
+
+
+}
+
+.main-c{
+display:inline-block;   
+display: flex; 
+}
+
+.baar-icon{
+ 
+  
+  font-size: 25px;
+  margin-left: 6px;
+  padding-left: 0%;
+  color: black;
+}
+.ytlogo{
+
+width: 100px;
+padding-top: 3px;
+
+}
+.search{
+
+height: 100%;
+background-color: aquamarine;
+    
+}
