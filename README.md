@@ -4,3 +4,7 @@ YouTube Homepage Clone using HTML and CSS. It replicates the main layout with a 
 # owner
 
 this clone create by sanjit 
+
+# project 
+
+now we all set the contents page 
