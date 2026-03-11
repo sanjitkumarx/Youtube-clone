@@ -74,30 +74,68 @@ height: 100px;
 .navbaar{
 
 display: flex;
-height: 45px;
+flex-direction: row;
+justify-content: space-between;
+height: 40px;
+border-bottom: 1px solid black;
 
 }
 
 .left{
 width: 200px;
-  
-display: grid;
-grid-template-columns: 60px 1fr;
+
+display: flex;
+align-items: center;
+
+}
+.baar-icon{
+height: 25px;
 
 
+}
+.youtube-logo{
+margin-left: 15px;
+height: 20px;    
 }
 .middle{
-margin-left: 60px;
-
+background-color: rgb(15, 28, 32);
 flex: 1;
-display: grid;
-grid-template-columns: 1fr 60px;
-height: 100%;
+margin-left: 40px;
+margin-right: 40px;
+max-width: 500px;
+
+
+
 }
 .right{
-width: 250px;
-margin-right: 0px;
-background-color: black;    
+ 
+   width: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.uplod-icon{
+
+height: 25px;
+
+}
+.you-icon{
+
+height: 25px;
+
+}
+.noti-icon{
+
+height: 25px;
+
+}
+.profile-icon{
+
+height: 25px;
+border-radius: 40px;
+margin-right: 5px;
+
 }
 
 .sidebaar{
@@ -111,25 +149,4 @@ height: 1000px;
 .main-c{
 display:inline-block;   
 display: flex; 
-}
-
-.baar-icon{
- 
-  
-  font-size: 25px;
-  margin-left: 6px;
-  padding-left: 0%;
-  color: black;
-}
-.ytlogo{
-
-width: 100px;
-padding-top: 3px;
-
-}
-.search{
-
-height: 100%;
-background-color: aquamarine;
-    
 }
