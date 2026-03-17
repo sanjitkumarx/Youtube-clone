@@ -1,3 +1,4 @@
+
 .thumbail-contener{
 width: 290px;
 height: 295px;
@@ -68,6 +69,8 @@ grid-template-columns: 1fr 1fr 1fr 1fr ;
 column-gap: 10px;
 row-gap: 5px;
 height: 100px;
+padding-top: 50px;
+padding-left: 50px;
 
 }
 
@@ -78,8 +81,35 @@ flex-direction: row;
 justify-content: space-between;
 height: 45px;
 border-bottom: 1px solid rgb(162, 160, 160);
+position: fixed;
+background-color: white;
+z-index: 100;
+left: 0px;
+right: -5px;
+top: 0;
+
 
 }
+.tags{
+position: relative;    
+}
+.time-tag{
+ color: azure;
+position: absolute;
+background-color: black;
+margin-bottom: 0;
+right: 3px;
+bottom: 8px;
+padding-left: 3px;
+padding-right: 3px;
+border-radius: 2px;
+font-family: roboto , Arial, Helvetica, sans-serif;
+font-size: small;
+font-weight: 500px;
+
+
+}
+
 
 .left{
 width: 200px;
@@ -145,6 +175,19 @@ font-size: 17px;
    justify-content: space-between;
 }
 
+.note-tag{
+background-color: brown;
+height: 15px;
+width: 15px;
+border-radius: 12px;
+color: antiquewhite;
+position: absolute;
+right: 71px;
+bottom: 7px;
+font-size: 15px;
+padding-left: 5px;
+
+}
 .uplod-icon{
 
 height: 25px;
@@ -163,20 +206,20 @@ height: 25px;
 .profile-icon{
 
 height: 25px;
+width: 25px;
 border-radius: 40px;
 margin-right: 5px;
 
 }
 
 .sidebaar{
-display: flex;
-height: 1000px;
-margin-top: -9px;
-width: 110px ;
-flex-direction: column;
+position: fixed;
+padding-top:50px;
+background-color: rgb(250, 248, 248);
+width: 70px ;
+left: 0;
 
 }
-
 .home-icon{
 
 
@@ -192,3 +235,31 @@ margin-top:2px ;
 display:inline-block;   
 display: flex; 
 }
+
+
+.box{
+
+height: 70px;
+width: 70px;
+margin-bottom: 2px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 3px;
+}
+.box:hover{
+background-color: lightgray;
+
+
+}
+.box img{
+width: 30px;
+
+
+}
+.box div{
+font-size: 10px;
+
+}
+
